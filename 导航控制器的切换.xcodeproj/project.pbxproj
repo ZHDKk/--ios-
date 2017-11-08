@@ -15,6 +15,9 @@
 		F0D9CCC21F4FBF5900A40DC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0D9CCC01F4FBF5900A40DC1 /* LaunchScreen.storyboard */; };
 		F0D9CCCD1F4FBF5900A40DC1 /* ________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F0D9CCCC1F4FBF5900A40DC1 /* ________Tests.m */; };
 		F0D9CCD81F4FBF5900A40DC1 /* ________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F0D9CCD71F4FBF5900A40DC1 /* ________UITests.m */; };
+		F0D9CCE71F4FBF7600A40DC1 /* VCRoot.m in Sources */ = {isa = PBXBuildFile; fileRef = F0D9CCE61F4FBF7600A40DC1 /* VCRoot.m */; };
+		F0D9CCEA1F4FC04500A40DC1 /* VCSecond.m in Sources */ = {isa = PBXBuildFile; fileRef = F0D9CCE91F4FC04500A40DC1 /* VCSecond.m */; };
+		F0D9CCED1F4FC07400A40DC1 /* VCThree.m in Sources */ = {isa = PBXBuildFile; fileRef = F0D9CCEC1F4FC07400A40DC1 /* VCThree.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		F0D9CCD31F4FBF5900A40DC1 /* 导航控制器的切换UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "导航控制器的切换UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0D9CCD71F4FBF5900A40DC1 /* ________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "________UITests.m"; sourceTree = "<group>"; };
 		F0D9CCD91F4FBF5900A40DC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0D9CCE51F4FBF7600A40DC1 /* VCRoot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCRoot.h; sourceTree = "<group>"; };
+		F0D9CCE61F4FBF7600A40DC1 /* VCRoot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCRoot.m; sourceTree = "<group>"; };
+		F0D9CCE81F4FC04500A40DC1 /* VCSecond.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCSecond.h; sourceTree = "<group>"; };
+		F0D9CCE91F4FC04500A40DC1 /* VCSecond.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCSecond.m; sourceTree = "<group>"; };
+		F0D9CCEB1F4FC07400A40DC1 /* VCThree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCThree.h; sourceTree = "<group>"; };
+		F0D9CCEC1F4FC07400A40DC1 /* VCThree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCThree.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +112,12 @@
 			children = (
 				F0D9CCB51F4FBF5900A40DC1 /* AppDelegate.h */,
 				F0D9CCB61F4FBF5900A40DC1 /* AppDelegate.m */,
+				F0D9CCE51F4FBF7600A40DC1 /* VCRoot.h */,
+				F0D9CCE61F4FBF7600A40DC1 /* VCRoot.m */,
+				F0D9CCE81F4FC04500A40DC1 /* VCSecond.h */,
+				F0D9CCE91F4FC04500A40DC1 /* VCSecond.m */,
+				F0D9CCEB1F4FC07400A40DC1 /* VCThree.h */,
+				F0D9CCEC1F4FC07400A40DC1 /* VCThree.m */,
 				F0D9CCB81F4FBF5900A40DC1 /* ViewController.h */,
 				F0D9CCB91F4FBF5900A40DC1 /* ViewController.m */,
 				F0D9CCBB1F4FBF5900A40DC1 /* Main.storyboard */,
@@ -273,7 +288,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0D9CCEA1F4FC04500A40DC1 /* VCSecond.m in Sources */,
+				F0D9CCE71F4FBF7600A40DC1 /* VCRoot.m in Sources */,
 				F0D9CCBA1F4FBF5900A40DC1 /* ViewController.m in Sources */,
+				F0D9CCED1F4FC07400A40DC1 /* VCThree.m in Sources */,
 				F0D9CCB71F4FBF5900A40DC1 /* AppDelegate.m in Sources */,
 				F0D9CCB41F4FBF5900A40DC1 /* main.m in Sources */,
 			);
